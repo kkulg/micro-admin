@@ -1,0 +1,30 @@
+{
+  "name": "micro-admin",
+  "version": "1.0.0",
+  "description": "Vue3 + Naive micro front end",
+  "main": "index.js",
+  "private": true,
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kkulg/micro-admin.git"
+  },
+  "keywords": [
+    "Vue3",
+    "Naive"
+  ],
+  "author": "kkulg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kkulg/micro-admin/issues"
+  },
+  "homepage": "https://github.com/kkulg/micro-admin#readme",
+  "devDependencies": {
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
