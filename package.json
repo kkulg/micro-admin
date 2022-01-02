@@ -2,9 +2,9 @@
   "name": "micro-admin",
   "version": "1.0.0",
   "description": "Vue3 + Naive micro front end",
-  "main": "index.js",
   "private": true,
   "scripts": {
+    "cz": "git-cz",
     "version": "conventional-changelog -p angular -i CHANGELOG.md -s && git add CHANGELOG.md"
   },
   "repository": {
@@ -29,7 +29,9 @@
     "conventional-changelog-cli": "^2.2.2",
     "cz-conventional-changelog": "^3.3.0",
     "gitmoji-cli": "^4.7.0",
-    "husky": "^7.0.4"
+    "husky": "^7.0.4",
+    "typescript": "^4.5.4",
+    "vue": "^3.2.26"
   },
   "config": {
     "commitizen": {
