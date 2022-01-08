@@ -1,23 +1,42 @@
 {
   "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
     "strict": true,
-    "module": "ESNext",
-    "target": "ES6",
+    "jsx": "preserve",
+    "importHelpers": true,
     "noImplicitAny": false,
     "declaration": true,
     "moduleResolution": "Node",
+    "skipLibCheck": true,
     "esModuleInterop": true,
-    "jsx": "preserve",
     "sourceMap": true,
-    "lib": ["ESNext", "DOM"],
+    "baseUrl": ".",
+    "types": [
+    ],
+    "paths": {
+      "@luban/*": [
+        "projects/luban/src/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ],
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
   },
   "include": [
-    "packages",
-    "projects",
+    "packages/**/*.ts",
+    "packages/**/*.tsx",
+    "packages/**/*.vue",
+    "projects/**/*.ts",
+    "projects/**/*.tsx",
+    "projects/**/*.vue"
   ],
   "exclude": [
     "node_modules", 

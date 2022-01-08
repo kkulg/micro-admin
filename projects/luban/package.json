@@ -1,0 +1,11 @@
+{
+  "name": "luban",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "start": "webpack"
+  },
+  "dependencies": {
+    "vue-router": "^4.0.0-0"
+  }
+}
