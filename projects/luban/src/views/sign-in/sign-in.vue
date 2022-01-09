@@ -1,12 +1,9 @@
 <template>
   <div class="lc-sign-in">
+    <n-button type="primary">Primary</n-button>
   </div>
 </template>
-<script lang="ts">
-import { defineComponent, ref } from 'vue';
-
-export default defineComponent({
-  name: 'LbSignIn',
-});
+<script lang="ts" setup>
+  import { NButton } from 'naive-ui';
 </script>
 <style lang="scss" scoped></style>

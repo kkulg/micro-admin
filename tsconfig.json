@@ -11,7 +11,8 @@
     "skipLibCheck": true,
     "esModuleInterop": true,
     "sourceMap": true,
-    "baseUrl": ".",
+    "baseUrl": "./",
+    "rootDir": "./",
     "types": [
     ],
     "paths": {
@@ -29,6 +30,11 @@
     "experimentalDecorators": true,
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
   },
   "include": [
     "packages/**/*.ts",
